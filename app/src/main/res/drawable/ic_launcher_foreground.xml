@@ -1,0 +1,81 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Speed dust trails representing rapid launch -->
+    <path android:pathData="M 54,75 L 54,92 M 46,72 L 42,85 M 62,72 L 66,85"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#40E3A857" />
+
+    <!-- Left Rocket Fin (Sleek red-orange gradient) -->
+    <path android:pathData="M 44,52 L 34,70 C 34,70 42,70 44,64 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="52"
+                android:endX="44"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#F44336" android:offset="0.0" />
+                <item android:color="#FF9800" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Rocket Fin (Sleek red-orange gradient) -->
+    <path android:pathData="M 64,52 L 74,70 C 74,70 66,70 64,64 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="64"
+                android:startY="52"
+                android:endX="74"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#F44336" android:offset="0.0" />
+                <item android:color="#FF9800" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Hot Fire Propulsion Flare -->
+    <path android:pathData="M 49,63 C 49,63 54,84 54,84 C 54,84 59,63 59,63 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="63"
+                android:endX="54"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FFEB3B" android:offset="0.0" />
+                <item android:color="#FF5722" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Main Golden Rocket Body -->
+    <path android:pathData="M 54,23 C 48,34 44,48 44,63 L 64,63 C 64,48 60,34 54,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="23"
+                android:endX="54"
+                android:endY="63"
+                android:type="linear">
+                <item android:color="#FFFDD0" android:offset="0.0" />
+                <item android:color="#FFD700" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Port-hole Ring -->
+    <path android:pathData="M 54,35 A 5 5 0 1 0 54,45 A 5 5 0 1 0 54,35 Z"
+        android:fillColor="#B1BEC6" />
+    
+    <!-- Glowing Blue Glass Inner -->
+    <path android:pathData="M 54,37 A 3 3 0 1 0 54,43 A 3 3 0 1 0 54,37 Z"
+        android:fillColor="#00E5FF" />
+</vector>

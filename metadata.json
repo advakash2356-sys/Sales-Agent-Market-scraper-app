@@ -1,0 +1,6 @@
+{
+  "name": "Lead to Launch",
+  "description": "Find local-business clients, audit their websites, rank them, generate site prompt and outreach copies — all in one dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
