@@ -83,7 +83,7 @@ Detailed usage workflows and command-line instructions are not documented in the
 AI features need your own key (free Gemini key: https://aistudio.google.com/apikey). No key is committed to this repo.
 
 1. Copy `.env.example` to `.env` in the project root (`.env` is git-ignored; check `.gitignore` before committing).
-2. Add: `GEMINI_API_KEY=your_key_here` and `APIFY_API_KEY=your_token_here` for scraping`
+2. Add: `GEMINI_API_KEY=your_key_here` and `APIFY_API_KEY=your_token_here` for scraping
 3. Rebuild in Android Studio. The Secrets Gradle plugin exposes it as `BuildConfig`. Without a key the app uses its built-in fallbacks.
 
 **Privacy:** the key stays in your own `.env` / your build, is never committed or logged, and is sent only to the AI provider's API. Delete the line and rebuild to remove it. There is no in-app key screen yet because these Android apps are untested in this environment; a settings screen is a planned follow-up.
